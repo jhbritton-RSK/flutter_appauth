@@ -74,19 +74,19 @@ void FlutterAppauthPlugin::HandleMethodCall(
   }
   
   void FlutterAppauthPlugin::AuthoriseAndExchangeCodeMethod() {
-    
+      std::cout << "AuthoriseAndExchangeCodeMethod Called CPP Windows";
   }
   
   void FlutterAppauthPlugin::AuthoriseMethod() {
-    
+      std::cout << "AuthoriseMethod Called CPP Windows";
   }
   
   void FlutterAppauthPlugin::TokenMethod() {
-    
+      std::cout << "TokenMethod Called CPP Windows";
   }
   
   void FlutterAppauthPlugin::EndSessionMethod() {
-    
+      std::cout << "EndSessionMehtod Called CPP Windows";
   }
 }  // namespace
 

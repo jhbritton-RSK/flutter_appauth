@@ -13,6 +13,11 @@
 extern "C" {
 #endif
 
+const std::string AUTHORIZE_AND_EXCHANGE_CODE_METHOD = "authorizeAndExchangeCode";
+const std::string AUTHORIZE_METHOD = "authorize";
+const std::string TOKEN_METHOD = "token";
+const std::string END_SESSION_METHOD = "endSession";
+
 FLUTTER_PLUGIN_EXPORT void FlutterAppauthPluginRegisterWithRegistrar(
     FlutterDesktopPluginRegistrarRef registrar);
 
